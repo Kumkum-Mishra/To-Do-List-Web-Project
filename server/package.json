@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kumkum-Mishra/Mern-stack-project.git"
+  },
+  "author": "Kumkum Mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kumkum-Mishra/Mern-stack-project/issues"
+  },
+  "homepage": "https://github.com/Kumkum-Mishra/Mern-stack-project#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.1",
+    "nodemon": "^3.1.4"
+  }
+}
